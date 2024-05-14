@@ -5,6 +5,7 @@ import SignUp from '../pages/SignUp';
 import Inicio from '../pages/Inicio';
 import CadastroCliente from '../pages/CadastroCliente';
 import Conta from '../pages/Conta';
+import Ajuda from '../pages/Ajuda';
 
 import Private from './private'
 
@@ -22,6 +23,8 @@ function RoutesApp(){
       <Route path="/cadastro" element={ <Private><CadastroCliente/></Private> } />
 
       <Route path="/conta" element={<Private><Conta/></Private>} />
+      
+      <Route path="/ajuda" element={<Private><Ajuda/></Private>} />
     
     </Routes>
   )
